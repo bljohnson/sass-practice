@@ -1,0 +1,25 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+h1 {
+	@include default-text-color($main-green);
+	text-align: center;
+}
+
+.parent {
+	position: relative;
+}
+
+img {
+	width: 450px;
+	@include centerer;
+}
+
+p {
+	@extend h1;
+	font-size: 18px;
+}
