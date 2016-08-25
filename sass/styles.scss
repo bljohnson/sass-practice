@@ -4,10 +4,12 @@
 @import "partials/mixins";
 @import "partials/base";
 @import "compass/css3";
+// @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 h1 {
 	@include default-text-color($main-green);
 	text-align: center;
+	font-family: $font-main;
 }
 
 .parent {
@@ -22,4 +24,5 @@ img {
 p {
 	@extend h1;
 	font-size: 18px;
+	font-family: $font-main;
 }

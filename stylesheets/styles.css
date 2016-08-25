@@ -624,18 +624,19 @@ body {
   box-sizing: border-box;
 }
 
-/* line 8, ../sass/styles.scss */
+/* line 9, ../sass/styles.scss */
 h1, p {
   color: #00647D;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
-/* line 13, ../sass/styles.scss */
+/* line 15, ../sass/styles.scss */
 .parent {
   position: relative;
 }
 
-/* line 17, ../sass/styles.scss */
+/* line 19, ../sass/styles.scss */
 img {
   width: 450px;
   display: block;
@@ -643,7 +644,8 @@ img {
   margin-right: auto;
 }
 
-/* line 22, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 p {
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
