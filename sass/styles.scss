@@ -24,5 +24,13 @@ img {
 p {
 	@extend h1;
 	font-size: 18px;
-	font-family: $font-main;
+}
+
+ul {
+	@extend h1;
+	text-align: left;
+	font-size: 18px;
+	li {
+		font-size: 16px;
+	}
 }

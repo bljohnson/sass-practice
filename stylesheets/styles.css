@@ -177,7 +177,7 @@ dfn {
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
 /* line 267, ../sass/partials/_normalize.scss */
-h1, p {
+h1, p, ul {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
   font-size: 2em;
   line-height: 1.5em;
@@ -611,13 +611,12 @@ isn't passed
 */
 /* line 1, ../sass/partials/_base.scss */
 body {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1em;
   color: #000000;
 }
 
-/* line 14, ../sass/partials/_base.scss */
+/* line 13, ../sass/partials/_base.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -625,7 +624,7 @@ body {
 }
 
 /* line 9, ../sass/styles.scss */
-h1, p {
+h1, p, ul {
   color: #00647D;
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -647,5 +646,14 @@ img {
 /* line 24, ../sass/styles.scss */
 p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+}
+
+/* line 29, ../sass/styles.scss */
+ul {
+  text-align: left;
+  font-size: 18px;
+}
+/* line 33, ../sass/styles.scss */
+ul li {
+  font-size: 16px;
 }
