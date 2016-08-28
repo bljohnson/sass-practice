@@ -655,7 +655,7 @@ ul {
 }
 /* line 32, ../sass/styles.scss */
 ul {
-  background-color: #B2BEB5;
+  background-color: rgba(178, 190, 181, 0.4);
 }
 /* line 35, ../sass/styles.scss */
 ul li {
@@ -663,5 +663,5 @@ ul li {
 }
 /* line 37, ../sass/styles.scss */
 ul li:last-of-type {
-  color: #00FF00;
+  color: magenta;
 }
