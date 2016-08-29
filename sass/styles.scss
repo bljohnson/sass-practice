@@ -39,3 +39,9 @@ ul {
 		}
 	}
 }
+
+@for $item from 1 through length($color-headlines) {
+	h#{$item} {
+		color: nth($color-headlines, $item);
+	}
+}

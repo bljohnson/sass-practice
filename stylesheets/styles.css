@@ -665,3 +665,33 @@ ul li {
 ul li:last-of-type {
   color: magenta;
 }
+
+/* line 44, ../sass/styles.scss */
+h1, p, ul {
+  color: #0000FF;
+}
+
+/* line 44, ../sass/styles.scss */
+h2 {
+  color: #7F00FF;
+}
+
+/* line 44, ../sass/styles.scss */
+h3 {
+  color: #00FF00;
+}
+
+/* line 44, ../sass/styles.scss */
+h4 {
+  color: #FF0000;
+}
+
+/* line 44, ../sass/styles.scss */
+h5 {
+  color: #FF7F00;
+}
+
+/* line 44, ../sass/styles.scss */
+h6 {
+  color: #FFCBDB;
+}
