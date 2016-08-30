@@ -1,3 +1,18 @@
+/* line 27, ../sass/partials/_variables.scss */
+.btn-default, .btn-hot, .btn-cool {
+  display: inline-block;
+  padding: 6px 12 px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+  color: #FFFFFF;
+}
+
 /*
 You can define a default that is used only if a value isn't
 assigned any place else
@@ -694,4 +709,19 @@ h5 {
 /* line 44, ../sass/styles.scss */
 h6 {
   color: #FFCBDB;
+}
+
+/* line 59, ../sass/styles.scss */
+.btn-default {
+  background-color: #00647D;
+}
+
+/* line 59, ../sass/styles.scss */
+.btn-hot {
+  background-color: #FF0000;
+}
+
+/* line 59, ../sass/styles.scss */
+.btn-cool {
+  background-color: #0000FF;
 }

@@ -45,3 +45,19 @@ ul {
 		color: nth($color-headlines, $item);
 	}
 }
+
+$color-btn-names: 'default', 'hot', 'cool';
+$color-btn-values: $main-green, $red, $blue;
+
+$color-btns: (
+	default: $main-green,
+	hot: $red,
+	cool: $blue
+);
+
+@each $key, $value in $color-btns {
+	.btn-#{$key} {
+		@extend %btn;
+		background-color: $value;
+	}
+}

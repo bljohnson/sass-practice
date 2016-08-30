@@ -24,6 +24,20 @@ $font-main: 'Roboto', sans-serif;
 
 $color-headlines: $blue, $violet, $green, $red, $orange, $pink;
 
+%btn {
+	display: inline-block;
+	padding: 6px 12 px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	font-family: $font-main;
+	user-select: none;
+	color: $white;
+}
+
 /*
 You can define a default that is used only if a value isn't
 assigned any place else
